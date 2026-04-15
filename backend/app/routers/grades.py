@@ -87,6 +87,7 @@ def create_grade(
         course = db.query(Course).filter(Course.id == data.course_id, Course.teacher_id == current_user.id).first()
         if not course:
             raise HTTPException(status_code=403, detail="Not your course")
+            
     grade = Grade(
         student_id=data.student_id,
         assignment_id=data.assignment_id,
@@ -96,6 +97,13 @@ def create_grade(
         feedback=data.feedback,
     )
     db.add(grade)
+    
+    # Award XP dynamically based on performance
+    student_record = db.query(Student).filter(Student.user_id == data.student_id).first()
+    if student_record and data.max_score > 0:
+        xp_earned = int((data.score / data.max_score) * 100)
+        student_record.xp_points += xp_earned
+        
     db.commit()
     db.refresh(grade)
     return grade

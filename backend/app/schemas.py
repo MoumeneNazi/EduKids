@@ -204,3 +204,23 @@ class ScheduleEventResponse(ScheduleEventBase):
     class Config:
         from_attributes = True
 
+
+class SubmissionBase(BaseModel):
+    assignment_id: int
+    file_url: str | None = None
+    text_content: str | None = None
+
+
+class SubmissionCreate(SubmissionBase):
+    pass
+
+
+class SubmissionResponse(SubmissionBase):
+    id: int
+    student_id: int
+    submitted_at: datetime
+    student: UserResponse | None = None
+    
+    class Config:
+        from_attributes = True
+

@@ -81,3 +81,25 @@ def list_students(
         }
         for s in rows
     ]
+
+
+@router.get("/leaderboard")
+def get_leaderboard(
+    limit: int = Query(10, le=50),
+    db: Session = Depends(get_db),
+    current_user: User = Depends(require_approved)
+):
+    """Returns top students sorted by XP."""
+    rows = db.query(Student).order_by(Student.xp_points.desc()).limit(limit).all()
+    return [
+        {
+            "id": s.id,
+            "student_id": s.user_id,
+            "name": s.user.name if s.user else "Unknown Hero",
+            "avatar": s.user.avatar if s.user else "🌟",
+            "class_level": s.class_level,
+            "xp_points": s.xp_points,
+            "badges": s.badges
+        }
+        for s in rows
+    ]

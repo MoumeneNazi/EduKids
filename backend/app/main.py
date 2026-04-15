@@ -5,7 +5,7 @@ from fastapi.staticfiles import StaticFiles
 import os
 
 from app.database import engine, Base, get_db
-from app.routers import auth, users, courses, grades, assignments, messages, attendance, students, announcements, timetable
+from app.routers import auth, users, courses, grades, assignments, messages, attendance, students, announcements, timetable, submissions, audit
 
 # Table creation is handled by Base.metadata.create_all
 Base.metadata.create_all(bind=engine)
@@ -36,6 +36,8 @@ app.include_router(attendance.router, prefix="/api")
 app.include_router(students.router, prefix="/api")
 app.include_router(announcements.router, prefix="/api")
 app.include_router(timetable.router, prefix="/api")
+app.include_router(submissions.router, prefix="/api")
+app.include_router(audit.router, prefix="/api")
 
 
 @app.get("/")

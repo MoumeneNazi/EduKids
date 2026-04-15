@@ -154,3 +154,17 @@ class ScheduleEvent(Base):
 
     course = relationship("Course")
 
+
+class Submission(Base):
+    __tablename__ = "submissions"
+
+    id = Column(Integer, primary_key=True, index=True)
+    assignment_id = Column(Integer, ForeignKey("assignments.id"), nullable=False)
+    student_id = Column(Integer, ForeignKey("users.id"), nullable=False)
+    file_url = Column(String(512), nullable=True)
+    text_content = Column(Text, nullable=True)
+    submitted_at = Column(DateTime, default=datetime.utcnow)
+
+    assignment = relationship("Assignment")
+    student = relationship("User")
+
