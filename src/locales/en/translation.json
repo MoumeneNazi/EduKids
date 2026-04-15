@@ -1,0 +1,258 @@
+{
+  "dashboard": {
+    "hello": "Hello",
+    "ready": "Ready for today's mathematical challenge?",
+    "level": "Level {{level}} Mathlete",
+    "xp": "XP POINTS",
+    "activeQuest": "ACTIVE QUEST",
+    "mathQuiz": "Math Quiz",
+    "studyRoom": "STUDY ROOM",
+    "reviewMaterials": "Review Teacher Materials",
+    "pendingTasks": "PENDING TASKS",
+    "noTasks": "Clear skies!",
+    "start": "START",
+    "recentPerformance": "RECENT PERFORMANCE"
+  },
+  "nav": {
+    "en": "English",
+    "fr": "Français"
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome to EduKids",
+      "subtitle": "Sign in to access your learning portal.",
+      "email": "Email Address",
+      "password": "Password",
+      "forgot": "Forgot password?",
+      "submit": "Sign in",
+      "submitting": "Connecting...",
+      "noAccount": "New to the platform?",
+      "register": "Register your role"
+    },
+    "signup": {
+      "title": "Create your account",
+      "subtitle": "Document verification is required for teachers and parents.",
+      "parentBtn": "Parent",
+      "teacherBtn": "Teacher",
+      "name": "Full Name",
+      "email": "Email Address",
+      "password": "Password",
+      "govId": "Gov ID Document",
+      "uploadId": "Upload National ID",
+      "familyBook": "Family Tree / Book",
+      "uploadFamily": "Upload Family Document",
+      "contract": "Employment Contract",
+      "uploadContract": "Upload Proof of Employment",
+      "submit": "Register and Continue",
+      "submitting": "Submitting Verification...",
+      "terms": "By registering, you agree to our terms. Security is our priority.",
+      "hasAccount": "Already verified?",
+      "signin": "Sign in"
+    }
+  },
+  "parent": {
+    "dashboard": {
+      "title": "Parental Bridge",
+      "subtitle": "Monitor your child's mathematical journey and teacher insights.",
+      "child": "Child",
+      "avgGrade": "Math Score Avg",
+      "engagement": "Engagement",
+      "unread": "Unread Alerts",
+      "academic": "Academic Snapshot",
+      "assessments": "Assessments",
+      "velocity": "Score Velocity",
+      "connect": "Teacher Connect",
+      "noInstructor": "Instructor Not Yet Assigned",
+      "noProgress": "No progress recorded"
+    },
+    "progress": {
+      "title": "My Children",
+      "addChild": "Add child account",
+      "cancel": "Cancel",
+      "createTitle": "Create account for your child",
+      "createDesc": "They will be linked to your account and can sign in immediately with the email and password you set.",
+      "name": "Name",
+      "email": "Email",
+      "password": "Password",
+      "level": "Class level",
+      "submit": "Create child account",
+      "submitting": "Creating...",
+      "noChildren": "You have no linked children yet. Click 'Add child account' to create an account for your child.",
+      "linked": "Linked to your account"
+    },
+    "attendance": {
+      "title": "Attendance Log",
+      "subtitle": "Monitor your child's presence and punctuality.",
+      "child": "Child",
+      "markedBy": "Status marked by administration",
+      "present": "Present",
+      "absent": "Absent",
+      "late": "Late",
+      "empty": "No attendance history found."
+    },
+    "chat": {
+      "instructor": "Active Math Instructor",
+      "placeholder": "Type your message...",
+      "connecting": "Connecting to Teacher..."
+    },
+    "messages": {
+      "title": "Messages",
+      "desc": "A chat-style inbox for conversations with teachers and admins."
+    },
+    "reportCard": {
+      "title": "Report Card",
+      "desc": "A printable report card layout with all subjects, grades, and comments will be rendered here."
+    }
+  },
+  "teacher": {
+    "dashboard": {
+      "title": "Math Controller",
+      "subtitle": "Efficiently manage your students and primary math lessons.",
+      "newLesson": "New Lesson",
+      "active": "Active Lessons",
+      "enrolled": "Enrolled Kids",
+      "pending": "Pending Scores",
+      "ledger": "Academic Ledger (Gradebooks)",
+      "resources": "Educational Resources",
+      "upload": "Upload Study Materials",
+      "uploadDesc": "Publish PDF guides, worksheets, or video links directly to your students' study rooms.",
+      "selectFile": "Select PDF / File",
+      "activeUploads": "Active Uploads:"
+    },
+    "attendance": {
+      "title": "Roll Call",
+      "subtitle": "Daily attendance tracking for your assigned students.",
+      "studentId": "Student ID",
+      "present": "Present",
+      "late": "Late",
+      "absent": "Absent",
+      "empty": "No students found in your roster."
+    },
+    "courses": {
+      "title": "Curriculum",
+      "subtitle": "Manage your educational content and class material.",
+      "newCourse": "New Course",
+      "close": "Close Form",
+      "create": "Create New Module",
+      "courseTitle": "Course Title",
+      "subject": "Subject",
+      "classLevel": "Class Level",
+      "video": "Video Integration (Optional URL)",
+      "init": "Initialize Course",
+      "empty": "No courses registered yet."
+    },
+    "grades": {
+      "title": "Academic Ledger",
+      "courseId": "Course ID",
+      "save": "Save Ledger",
+      "studentName": "Student Name",
+      "average": "Average",
+      "guidelines": "Ledger Guidelines:",
+      "pending": "Pending Changes",
+      "committed": "Committed Data",
+      "empty": "No data available"
+    },
+    "messages": {
+      "title": "Parental Communication",
+      "subtitle": "Keep parents informed about their child's daily school life.",
+      "compose": "Compose Message",
+      "target": "Target Parent (Associated Student)",
+      "select": "Select a student...",
+      "content": "Message Content",
+      "placeholder": "Type your message here...",
+      "dispatch": "Dispatch Message",
+      "recent": "Recent Exchanges",
+      "empty": "Inbox is empty"
+    }
+  },
+  "admin": {
+    "dashboard": {
+      "title": "Governance Controller",
+      "subtitle": "Global oversight of the mathematical educational ecosystem.",
+      "live": "System Live",
+      "integrity": "System Integrity",
+      "auditInit": "Advanced audit logs are currently initializing",
+      "auditDesc": "The governance engine is monitoring all document verification requests in real-time."
+    },
+    "users": {
+      "title": "User Governance",
+      "subtitle": "Review credentials and manage platform access.",
+      "pending": "Awaiting Review",
+      "all": "Registry Index",
+      "empty": "No accounts pending review.",
+      "approve": "Approve",
+      "reject": "Reject",
+      "user": "User",
+      "role": "Role",
+      "status": "Status",
+      "verified": "Verified",
+      "pendingStatus": "Pending",
+      "govId": "Gov ID",
+      "familyTree": "Family Tree",
+      "contract": "Contract"
+    },
+    "announcements": {
+      "title": "Global Announcements",
+      "subtitle": "Broadcast system-wide alerts to users.",
+      "comingSoon": "Announcement publishing interface will be available in the next system patch."
+    },
+    "timetable": {
+      "title": "Master Timetable",
+      "subtitle": "Synchronize global class schedules.",
+      "comingSoon": "Drag-and-drop scheduling matrix will be available in the next system patch."
+    }
+  },
+  "student": {
+    "achievements": {
+      "title": "Trophy Room",
+      "subtitle": "These badges show the adventures you've already completed in EduKids.",
+      "count": "You have {{count}} badges so far.",
+      "earned": "EARNED BADGES",
+      "locked": "LOCKED BADGES",
+      "hint": "Keep finishing your homework, participating in class, and doing your best. New badges will unlock automatically!"
+    },
+    "homework": {
+      "title": "Homework Missions",
+      "empty": "You don't have any homework yet. Your next missions will appear here.",
+      "dueSoon": "Due soon",
+      "placeholder": "Write your answer here...",
+      "submit": "Mark as submitted"
+    },
+    "courses": {
+      "title": "My Courses",
+      "empty": "No courses are linked to your class yet.",
+      "progress": "Progress",
+      "continue": "Continue learning"
+    },
+    "grades": {
+      "title": "My Scorecard",
+      "empty": "Your grades will appear here once your teacher has marked your tests and homework.",
+      "filter": "Filter subject:",
+      "all": "All",
+      "subject": "Subject",
+      "assignment": "Assignment",
+      "score": "Score",
+      "feedback": "Feedback"
+    },
+    "studyRoom": {
+      "title": "Study Room",
+      "subtitle": "Access math guides, video lessons, and worksheets from your teacher.",
+      "search": "Search resources...",
+      "watch": "Watch Now",
+      "download": "Download",
+      "empty": "No materials found for your search",
+      "protip": "Mathematical Pro-tip",
+      "quote": "Mathematics is not about numbers, equations, or algorithms: it is about understanding."
+    },
+    "quiz": {
+      "quest": "Math Quest: {{level}}",
+      "question": "Question {{current}} of {{total}}",
+      "finalize": "Finalize Quest",
+      "next": "Analyze Next",
+      "completed": "Quest Completed!",
+      "mastered": "You mastered {{score}} out of {{total}} mathematical challenges.",
+      "retry": "Try Fresh Challenge",
+      "return": "Return to Dashboard"
+    }
+  }
+}

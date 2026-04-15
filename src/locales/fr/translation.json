@@ -1,0 +1,258 @@
+{
+  "dashboard": {
+    "hello": "Bonjour",
+    "ready": "Prêt pour le défi mathématique d'aujourd'hui ?",
+    "level": "Mathématicien Niveau {{level}}",
+    "xp": "POINTS D'XP",
+    "activeQuest": "QUÊTE ACTIVE",
+    "mathQuiz": "Quiz de Math",
+    "studyRoom": "SALLE D'ÉTUDE",
+    "reviewMaterials": "Réviser le matériel",
+    "pendingTasks": "TÂCHES EN ATTENTE",
+    "noTasks": "Rien à signaler !",
+    "start": "COMMENCER",
+    "recentPerformance": "PERFORMANCES RÉCENTES"
+  },
+  "nav": {
+    "en": "English",
+    "fr": "Français"
+  },
+  "auth": {
+    "login": {
+      "title": "Bienvenue sur EduKids",
+      "subtitle": "Connectez-vous pour accéder à votre portail.",
+      "email": "Adresse E-mail",
+      "password": "Mot de passe",
+      "forgot": "Mot de passe oublié ?",
+      "submit": "Se connecter",
+      "submitting": "Connexion...",
+      "noAccount": "Nouveau sur la plateforme ?",
+      "register": "Créer un compte"
+    },
+    "signup": {
+      "title": "Créer votre compte",
+      "subtitle": "Une vérification des documents est requise.",
+      "parentBtn": "Parent",
+      "teacherBtn": "Enseignant",
+      "name": "Nom complet",
+      "email": "Adresse E-mail",
+      "password": "Mot de passe",
+      "govId": "Document d'identité",
+      "uploadId": "Télécharger la carte d'identité",
+      "familyBook": "Livret de famille",
+      "uploadFamily": "Télécharger le livret de famille",
+      "contract": "Contrat de travail",
+      "uploadContract": "Télécharger la preuve d'emploi",
+      "submit": "S'inscrire et continuer",
+      "submitting": "Soumission en cours...",
+      "terms": "En vous inscrivant, vous acceptez nos conditions.",
+      "hasAccount": "Déjà vérifié ?",
+      "signin": "Se connecter"
+    }
+  },
+  "parent": {
+    "dashboard": {
+      "title": "Passerelle Parentale",
+      "subtitle": "Suivez le parcours mathématique de votre enfant et les commentaires du professeur.",
+      "child": "Enfant",
+      "avgGrade": "Moyenne en Math",
+      "engagement": "Engagement",
+      "unread": "Alertes non lues",
+      "academic": "Aperçu Académique",
+      "assessments": "Évaluations",
+      "velocity": "Évolution de la note",
+      "connect": "Contact Professeur",
+      "noInstructor": "Aucun professeur assigné",
+      "noProgress": "Aucun progrès enregistré"
+    },
+    "progress": {
+      "title": "Mes Enfants",
+      "addChild": "Ajouter un compte enfant",
+      "cancel": "Annuler",
+      "createTitle": "Créer un compte pour votre enfant",
+      "createDesc": "Il sera lié à votre compte et pourra se connecter immédiatement.",
+      "name": "Nom",
+      "email": "Email",
+      "password": "Mot de passe",
+      "level": "Niveau de classe",
+      "submit": "Créer le compte",
+      "submitting": "Création en cours...",
+      "noChildren": "Vous n'avez pas encore d'enfant lié. Cliquez sur 'Ajouter un compte enfant'.",
+      "linked": "Lié à votre compte"
+    },
+    "attendance": {
+      "title": "Journal de Présence",
+      "subtitle": "Surveillez la présence et la ponctualité de votre enfant.",
+      "child": "Enfant",
+      "markedBy": "Statut marqué par l'administration",
+      "present": "Présent",
+      "absent": "Absent",
+      "late": "En retard",
+      "empty": "Aucun historique de présence."
+    },
+    "chat": {
+      "instructor": "Professeur de Mathématiques",
+      "placeholder": "Tapez votre message...",
+      "connecting": "Connexion au Professeur..."
+    },
+    "messages": {
+      "title": "Messages",
+      "desc": "Une boîte de réception de style chat pour les conversations avec les professeurs."
+    },
+    "reportCard": {
+      "title": "Bulletin de Notes",
+      "desc": "Un modèle de bulletin imprimable avec toutes les notes sera affiché ici."
+    }
+  },
+  "teacher": {
+    "dashboard": {
+      "title": "Contrôleur de Mathématiques",
+      "subtitle": "Gérez efficacement vos élèves et vos leçons de mathématiques primaires.",
+      "newLesson": "Nouvelle Leçon",
+      "active": "Leçons Actives",
+      "enrolled": "Enfants Inscrits",
+      "pending": "Notes en Attente",
+      "ledger": "Registre Académique (Carnets de notes)",
+      "resources": "Ressources Éducatives",
+      "upload": "Télécharger du Matériel d'Étude",
+      "uploadDesc": "Publiez des guides PDF, des fiches ou des liens vidéo directement dans les salles d'étude de vos élèves.",
+      "selectFile": "Sélectionner PDF / Fichier",
+      "activeUploads": "Téléchargements Actifs :"
+    },
+    "attendance": {
+      "title": "Appel",
+      "subtitle": "Suivi quotidien des présences de vos élèves assignés.",
+      "studentId": "ID Élève",
+      "present": "Présent",
+      "late": "En retard",
+      "absent": "Absent",
+      "empty": "Aucun élève trouvé dans votre liste."
+    },
+    "courses": {
+      "title": "Programme Scolaire",
+      "subtitle": "Gérez votre contenu éducatif et le matériel de classe.",
+      "newCourse": "Nouveau Cours",
+      "close": "Fermer le Formulaire",
+      "create": "Créer un Nouveau Module",
+      "courseTitle": "Titre du Cours",
+      "subject": "Matière",
+      "classLevel": "Niveau de Classe",
+      "video": "Intégration Vidéo (URL Optionnelle)",
+      "init": "Initialiser le Cours",
+      "empty": "Aucun cours enregistré pour le moment."
+    },
+    "grades": {
+      "title": "Registre Académique",
+      "courseId": "ID du Cours",
+      "save": "Enregistrer le Registre",
+      "studentName": "Nom de l'Élève",
+      "average": "Moyenne",
+      "guidelines": "Directives du Registre :",
+      "pending": "Modifications en attente",
+      "committed": "Données enregistrées",
+      "empty": "Aucune donnée disponible"
+    },
+    "messages": {
+      "title": "Communication Parentale",
+      "subtitle": "Tenez les parents informés de la vie scolaire quotidienne de leur enfant.",
+      "compose": "Rédiger un Message",
+      "target": "Parent Cible (Élève Associé)",
+      "select": "Sélectionnez un élève...",
+      "content": "Contenu du Message",
+      "placeholder": "Tapez votre message ici...",
+      "dispatch": "Envoyer le Message",
+      "recent": "Échanges Récents",
+      "empty": "La boîte de réception est vide"
+    }
+  },
+  "admin": {
+    "dashboard": {
+      "title": "Contrôleur de Gouvernance",
+      "subtitle": "Supervision globale de l'écosystème éducatif mathématique.",
+      "live": "Système En Ligne",
+      "integrity": "Intégrité du Système",
+      "auditInit": "Les journaux d'audit avancés sont en cours d'initialisation",
+      "auditDesc": "Le moteur de gouvernance surveille toutes les demandes de vérification de documents en temps réel."
+    },
+    "users": {
+      "title": "Gouvernance des Utilisateurs",
+      "subtitle": "Examinez les identifiants et gérez l'accès à la plateforme.",
+      "pending": "En attente d'examen",
+      "all": "Index du Registre",
+      "empty": "Aucun compte en attente d'examen.",
+      "approve": "Approuver",
+      "reject": "Rejeter",
+      "user": "Utilisateur",
+      "role": "Rôle",
+      "status": "Statut",
+      "verified": "Vérifié",
+      "pendingStatus": "En attente",
+      "govId": "Pièce d'Identité",
+      "familyTree": "Livret de Famille",
+      "contract": "Contrat"
+    },
+    "announcements": {
+      "title": "Annonces Globales",
+      "subtitle": "Diffusez des alertes à l'échelle du système aux utilisateurs.",
+      "comingSoon": "L'interface de publication d'annonces sera disponible lors de la prochaine mise à jour du système."
+    },
+    "timetable": {
+      "title": "Emploi du Temps Principal",
+      "subtitle": "Synchronisez les horaires de cours globaux.",
+      "comingSoon": "La matrice de planification par glisser-déposer sera disponible lors de la prochaine mise à jour."
+    }
+  },
+  "student": {
+    "achievements": {
+      "title": "Salle des Trophées",
+      "subtitle": "Ces badges montrent les aventures que vous avez déjà terminées.",
+      "count": "Vous avez {{count}} badges jusqu'à présent.",
+      "earned": "BADGES GAGNÉS",
+      "locked": "BADGES VERROUILLÉS",
+      "hint": "Continuez à faire vos devoirs et à participer en classe. De nouveaux badges se débloqueront automatiquement !"
+    },
+    "homework": {
+      "title": "Missions de Devoirs",
+      "empty": "Vous n'avez pas encore de devoirs. Vos prochaines missions apparaîtront ici.",
+      "dueSoon": "Bientôt à rendre",
+      "placeholder": "Écrivez votre réponse ici...",
+      "submit": "Marquer comme soumis"
+    },
+    "courses": {
+      "title": "Mes Cours",
+      "empty": "Aucun cours n'est encore lié à votre classe.",
+      "progress": "Progression",
+      "continue": "Continuer l'apprentissage"
+    },
+    "grades": {
+      "title": "Mon Bulletin",
+      "empty": "Vos notes apparaîtront ici une fois que votre professeur aura corrigé vos tests.",
+      "filter": "Filtrer la matière :",
+      "all": "Tout",
+      "subject": "Matière",
+      "assignment": "Devoir",
+      "score": "Note",
+      "feedback": "Commentaire"
+    },
+    "studyRoom": {
+      "title": "Salle d'étude",
+      "subtitle": "Accédez aux guides, leçons vidéo et fiches de travail de votre professeur.",
+      "search": "Rechercher des ressources...",
+      "watch": "Regarder",
+      "download": "Télécharger",
+      "empty": "Aucun document trouvé pour votre recherche",
+      "protip": "Astuce Mathématique",
+      "quote": "Les mathématiques ne se limitent pas aux nombres ou aux algorithmes : il s'agit de comprendre."
+    },
+    "quiz": {
+      "quest": "Quête Mathématique : {{level}}",
+      "question": "Question {{current}} sur {{total}}",
+      "finalize": "Terminer la quête",
+      "next": "Analyser la Suivante",
+      "completed": "Quête Terminée !",
+      "mastered": "Vous avez maîtrisé {{score}} défis mathématiques sur {{total}}.",
+      "retry": "Tenter un Nouveau Défi",
+      "return": "Retour au Tableau de Bord"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+# Python 3.11 or 3.12 recommended (3.14 may need Rust for pydantic-core)
+fastapi>=0.115,<0.116
+uvicorn[standard]>=0.32
+sqlalchemy>=2.0
+PyJWT>=2.8
+bcrypt>=4.0
+pydantic>=2.9,<2.11
+pydantic-settings>=2.5
+python-multipart>=0.0.17
+email-validator>=2.0
